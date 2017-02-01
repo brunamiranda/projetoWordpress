@@ -14,7 +14,7 @@
 					<div class="data">
 						<p>3 days ago by Jane Doe</p>
 					</div>
-					<div>
+					<div class="texto<?php echo $counter ?>">
 						<p><?php echo the_content(); ?></p>
 					</div>
 					
@@ -52,7 +52,7 @@
 					<div class="data">
 						<p>3 days ago by Jane Doe</p>
 					</div>
-					<div>
+					<div class="texto<?php echo $counter ?>">
 						<p><?php echo the_content(); ?></p>
 					</div>
 					

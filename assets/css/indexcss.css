@@ -267,6 +267,8 @@ body{
 }
 .texto2{
 	color: rgba(255,255,255,0.75);
+	font-family: 'Dosis', sans-serif;
+	font-size: 17px;
 }
 .read2 a{
 	background-color: transparent;
@@ -315,6 +317,10 @@ body{
 	text-align: right;
 	padding-left: 220px;
 	padding-right: 100px;
+}
+.texto3{
+	font-size: 17px;
+	font-family: 'Dosis', sans-serif;
 }
 .read3 a{
 	background-color: transparent;
@@ -365,6 +371,9 @@ body{
 }
 .texto4{
 	color: rgba(255,255,255,0.75);
+	font-size: 17px;
+	font-family: 'Dosis', sans-serif;
+
 }
 .read4 a{
 	background-color: transparent;
@@ -412,6 +421,10 @@ body{
 	text-align: right;
 	padding-left: 220px;
 	padding-right: 100px;
+}
+.texto5{
+	font-size: 17px;
+	font-family: 'Dosis', sans-serif;
 }
 .read5 a{
 	background-color: transparent;
@@ -461,6 +474,8 @@ body{
 	padding-right: 220px;
 }
 .texto6{
+	font-size: 17px;
+	font-family: 'Dosis', sans-serif;
 	color: rgba(255,255,255,0.75);
 }
 .read6 a{

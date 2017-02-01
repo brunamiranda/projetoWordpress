@@ -39,10 +39,9 @@
                 
             </div>
             
-        </nav>
-
+        </nav>        		
 			<div id="head">
-				<div class="titulo">
+				<div class=" titulo">
 					<h1>This is Binary, a free and fully responsive
 					website template by TEMPLATED</h1>
 					<a href="">Continue</a>
