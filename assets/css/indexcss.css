@@ -4,7 +4,6 @@ header{
 	height: 100%;
 	width: 100%;
 	position: relative;
-	z-index: 999;
 }
 html{
 	height: 100%;
@@ -30,9 +29,15 @@ body{
     height: 75px;
     width: 100%;
     border-radius: 0px;
-    z-index: 999;
 }
 
+.navbar{
+    background-color: rgba(28, 28, 28, 1);
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    border-radius: 0px;
+}
 
 .botao{
     float: right;
@@ -86,12 +91,10 @@ body{
     color: rgba(211, 211, 211, 0.6);
     transition: 0.3s;
 }
-.linha1{
-	margin-top: 30px;
-}
 .linha2{
 	border-top: 0.5px solid lightgrey;
 	border-bottom: 0.5px solid lightgrey;
+	color: lightgrey;
 	padding-top: 10px;
 
 }
@@ -110,7 +113,7 @@ body{
 
 .botaoMenu::after {
 	z-index: 999;
-	content: 'MENU';
+	content:'MENU';
 	position: absolute;
 }
 
@@ -173,8 +176,12 @@ body{
 #publicacao1{
 	height: 100%;
 	width:100%;
-	background-image: url(images/post1.jpg);
-	background-position: 200px center;
+	
+
+}
+.post-image1{	
+	height: 100%;
+	background-position: -500px center;
 }
 .textoPost1{
 	background-color: white;
@@ -204,7 +211,6 @@ body{
 }
 #publicacao1 p{
 	font-family: 'Dosis', sans-serif;
-	font-size: 17px;
 }
 .read1 a{
 	background-color: transparent;
@@ -214,7 +220,7 @@ body{
 	color: #1abc9c;
 	padding: 15px 40px;
 	font-size: 20px;	
-	transition-duration: 0.7s;
+	transition-duration: 0.5s;
 	border: 2px solid lightgrey;
 	font-weight: bolder;
 	font-family:'Ubuntu', sans-serif;
@@ -234,7 +240,9 @@ body{
 #publicacao2{
 	height: 100%;
 	width:100%;
-	background-image: url(images/post2.jpg);
+}
+.post-image2{	
+	height: 100%;
 	background-position: -100px center;
 }
 .textoPost2{
@@ -257,10 +265,6 @@ body{
 	transition: 0.5s;
 	border-bottom-color: white;
 }
-#publicacao2 p{
-	font-family: 'Dosis', sans-serif;
-	font-size: 17px;
-}
 .texto2{
 	color: rgba(255,255,255,0.75);
 }
@@ -272,22 +276,25 @@ body{
 	color: white;
 	padding: 15px 40px;
 	font-size: 20px;
-	transition-duration: 0.5s;
+	transition-duration: 0.4s;
 	border: 2px solid lightgrey;
 	font-weight: bolder;
 	font-family:'Ubuntu', sans-serif;
 }
 .read2 a:hover{
 	background-color: rgba(255,255,255,0.2);
-	transition: 0.5s;
+	transition: 0.4s;
 }
 
 /*Publicação 3*/
 #publicacao3{
 	height: 100%;
 	width:100%;
-	background-image: url(images/post3.jpg);
-	background-position: 100px center;
+
+}
+.post-image3{	
+	height: 100%;
+	background-position: -600px center;
 }
 #publicacao3 h2{
 	font-weight: bolder;
@@ -300,10 +307,6 @@ body{
 	cursor: pointer;
 	transition: 0.5s;
 	border-bottom-color: #3498db;
-}
-#publicacao3 p{
-	font-family: 'Dosis', sans-serif;
-	font-size: 17px;
 }
 .textoPost3{
 	padding-top: 100px;
@@ -321,21 +324,23 @@ body{
 	color: #3498db;
 	padding: 15px 40px;
 	font-size: 20px;
-	transition-duration: 0.5s;
+	transition-duration: 0.4s;
 	border: 2px solid lightgrey;
 	font-weight: bolder;
 	font-family:'Ubuntu', sans-serif;
 }
 .read3 a:hover{
 	background-color: rgba(20,60,86,0.2);
-	transition: 0.5s;
+	transition: 0.4s;
 }
 
 /*Publicação 4*/
 #publicacao4{
 	height: 100%;
 	width: 100%;
-	background-image: url(images/post1.jpg);
+}
+.post-image4{	
+	height: 100%;
 	background-position: -500px center;
 }
 #publicacao4 h2{
@@ -349,10 +354,6 @@ body{
 	cursor: pointer;
 	transition: 0.5s;
 	border-bottom-color: white;
-}
-#publicacao4 p{
-	font-family: 'Dosis', sans-serif;
-	font-size: 17px;
 }
 .textoPost4{
 	padding-top: 100px;
@@ -373,22 +374,24 @@ body{
 	color: white;
 	padding: 15px 40px;
 	font-size: 20px;
-	transition-duration: 0.5s;
+	transition-duration: 0.4s;
 	border: 2px solid lightgrey;
 	font-weight: bolder;
 	font-family:'Ubuntu', sans-serif;
 }
 .read4 a:hover{
 	background-color: rgba(255,255,255,0.2);
-	transition: 0.5s;
+	transition: 0.4s;
 }
 
 /*Publicação 5*/
 #publicacao5{
 	height: 100%;
 	width:100%;
-	background-image: url(images/post2.jpg);
-	background-position: 600px center;
+}
+.post-image5{	
+	height: 100%;
+	background-position: -100px center;
 }
 #publicacao5 h2{
 	font-weight: bolder;
@@ -402,16 +405,12 @@ body{
 	transition: 0.5s;
 	border-bottom-color: #9b59b6;
 }
-#publicacao5 p{
-	font-family: 'Dosis', sans-serif;
-	font-size: 17px;
-}
 .textoPost5{
 	padding-top: 100px;
 	background-color: white;
 	height: 100%;
 	text-align: right;
-	padding-left: 190px;
+	padding-left: 220px;
 	padding-right: 100px;
 }
 .read5 a{
@@ -422,22 +421,24 @@ body{
 	color: #9b59b6;
 	padding: 15px 40px;
 	font-size: 20px;
-	transition-duration: 0.5s;
+	transition-duration: 0.4s;
 	border: 2px solid lightgrey;
 	font-weight: bolder;
 	font-family:'Ubuntu', sans-serif;
 }
 .read5 a:hover{
 	background-color: rgba(61,35,71,0.2);
-	transition: 0.5s;
+	transition: 0.4s;
 }
 
 /*Publicação 6*/
 #publicacao6{
 	height: 100%;
 	width:100%;
-	background-image: url(images/post3.jpg);
-	background-position: -550px center;
+}
+.post-image6{	
+	height: 100%;
+	background-position: -600px center;
 }
 #publicacao6 h2{
 	font-weight: bolder;
@@ -450,10 +451,6 @@ body{
 	cursor: pointer;
 	transition: 0.5s;
 	border-bottom-color: white;
-}
-#publicacao6 p{
-	font-family: 'Dosis', sans-serif;
-	font-size: 17px;
 }
 .textoPost6{
 	padding-top: 100px;
@@ -474,14 +471,14 @@ body{
 	color: white;
 	padding: 15px 40px;
 	font-size: 20px;
-	transition-duration: 0.5s;
+	transition-duration: 0.4s;
 	border: 2px solid lightgrey;
 	font-weight: bolder;
 	font-family:'Ubuntu', sans-serif;
 }
 .read6 a:hover{
 	background-color: rgba(255,255,255,0.2);
-	transition: 0.5s;
+	transition: 0.4s;
 }
 
 /*Footer*/

@@ -25,10 +25,10 @@
 			
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID), 'single-post-thumbnail'); ?>
 				<?php if($image): ?>
-					<div class="col-md-6 col-sm-6 col-xs-12 post-image" id="<?php echo $counter; ?>" style="background-image: url(<?php echo $image[0]; ?>">
+					<div class="col-md-6 col-sm-6 col-xs-12 post-image<?php echo $counter ?>" style="background-image: url(<?php echo $image[0]; ?>">
 					</div>
 				<?php else: ?>
-					<div class="col-md-6 col-sm-6 col-xs-12 post-image" id="<?php echo $counter; ?>" style="background-image: url(<?php bloginfo('template_directory'); ?>/assets/css/images/post1.png)">
+					<div class="col-md-6 col-sm-6 col-xs-12 post-image<?php echo $counter ?>" style="background-image: url(<?php bloginfo('template_directory'); ?>/assets/css/images/post<?php echo $counter ?>.png)">
 					</div>
 				<?php endif ?>
 
@@ -41,10 +41,10 @@
 
 				<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID), 'single-post-thumbnail'); ?>
 				<?php if($image): ?>
-					<div class="col-md-6 col-sm-6 col-xs-12 post-image" style="background-image: url(<?php echo $image[0]; ?>">
+					<div class="col-md-6 col-sm-6 col-xs-12 post-image<?php echo $counter ?>" style="background-image: url(<?php echo $image[0]; ?>">
 					</div>
 				<?php else: ?>
-					<div class="col-md-6 col-sm-6 col-xs-12 post-image" style="background-image: url(<?php bloginfo('template_directory'); ?>/assets/css/images/post2.png)">
+					<div class="col-md-6 col-sm-6 col-xs-12 post-image<?php echo $counter ?>" style="background-image: url(<?php bloginfo('template_directory'); ?>/assets/css/images/post<?php echo $counter ?>.png)">
 					</div>
 				<?php endif ?>
 				<div class="col-md-6 col-sm-6 col-xs-12 textoPost<?php echo $counter ?>">

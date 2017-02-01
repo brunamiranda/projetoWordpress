@@ -31,7 +31,7 @@
                 
                 <div class="menu">
                     <ol class="opcoes">
-                        <a href="./index.html"><li class="linha1">Home</li></a>
+                        <a href="./index.html"><li class="linha">Home</li></a>
                         <a href="./news.html"><li class="linha2">News</li></a>
                         <a href="./example.html"><li>Example</li></a>
                     </ol>
